@@ -58,9 +58,7 @@ public class ResourceExceptionHandler {
 			err.adicionaErros(f.getField(), f.getDefaultMessage());
 			
 		}
-		
-		
-		
+					
 		return ResponseEntity.status(status).body(err);
 	}
 }
