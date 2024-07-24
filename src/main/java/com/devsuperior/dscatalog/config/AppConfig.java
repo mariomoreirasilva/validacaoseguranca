@@ -9,7 +9,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @Configuration
 public class AppConfig {
 
-    @Bean
+   @Bean
    public BCryptPasswordEncoder passwordEncoder() {
     	//metodo para criptografar a senha. será usado no service
 		return new BCryptPasswordEncoder();
